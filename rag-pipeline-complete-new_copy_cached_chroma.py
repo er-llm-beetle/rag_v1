@@ -11785,7 +11785,7 @@ class RAGPipeline:
                 persist_directory=f"{cache_dir}/vector_store"
             )
 # 
-            OPENAI_API_KEY = st.secrets('OPENAI_API_KEY')
+            OPENAI_API_KEY = st.secrets['OPENAI_API_KEY']
 
 
             self.hyde = HyDEGenerator()
